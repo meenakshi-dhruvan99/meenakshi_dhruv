@@ -12,6 +12,6 @@ do
   i=$((i + 1))
 done
 
-avg=$(( $sum / $n))
+avg=$(echo $sum / $N | bc -l)
 
 echo "average =$avg"
