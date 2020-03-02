@@ -1,11 +1,11 @@
 #!/bin/sh
-echo "Enter value of n"
-read n
+echo "Enter value of N"
+read N
 i=1
 sum=0
 
 echo "Enter Numbers"
-while [ $i -le $n ]
+while [ $i -le $N ]
 do
   read num          
   sum=$(($sum + $num))    
